@@ -77,7 +77,7 @@ docker-compose up -d
 ### 5️⃣ Run Prisma Migrations
 
 ```sh
-yarn prisma migrate dev --name init
+yarn prisma migrate dev
 ```
 
 ### 6️⃣ Start the NestJS Server
