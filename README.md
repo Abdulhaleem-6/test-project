@@ -34,17 +34,8 @@ yarn install
 
 ### 3️⃣ Set Up Environment Variables
 
-Create a `.env` file in the root directory and add the following:
-
 ```env
-DB_USER ="user"
-DB_PASSWORD="password"
-DB_HOST="localhost"
-DB_PORT="5432"
-DB_NAME="dbname"
-DATABASE_URL="postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?schema=public"
-JWT_SECRET="your_jwt_secret"
-JWT_EXPIRATION='2days'
+cp .env.example .env
 ```
 
 ### 4️⃣ Set Up Docker (PostgreSQL)
