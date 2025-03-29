@@ -29,7 +29,3 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     return jwtUser;
   }
 }
-
-export const jwtConstants = {
-  secret: process.env.JWT_SECRET,
-};
