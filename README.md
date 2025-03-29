@@ -22,8 +22,8 @@ This project is a RESTful API service built using **NestJS** with **TypeScript**
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone <(https://github.com/Abdulhaleem-6/test-project.git)>
+cd <test-project>
 ```
 
 ### 2️⃣ Install Dependencies
